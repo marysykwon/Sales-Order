@@ -1,6 +1,8 @@
 set echo on
 spool e:setup.txt
 
+/Initialize tables for report data extraction/
+
 drop table inventory;
 drop table counter;
 drop table orders;
